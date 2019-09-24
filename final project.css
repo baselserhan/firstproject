@@ -1,0 +1,207 @@
+.header{
+    height: 90vh;
+    background-image: linear-gradient(to right,hsl(243, 87%, 12%),hsl(243, 86%, 85%));
+    
+}
+#logo{
+    margin-bottom: 20px;
+}
+#mynavbar{
+    height: 10%;
+    padding: 40px;
+    
+}
+.buttons{
+    float: right;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    
+    
+ 
+   
+}
+#signin-btn{
+    background: none;
+    border: none;
+}
+#image{
+    width: 30%;
+    position: absolute;
+    top: 17%;
+    right: 9%;
+    
+    
+}
+#text{
+    margin-top: 150px;
+    color: white;
+    padding-left: 7%;
+}
+.btn-lg{
+    width: 250px;   
+}
+.content{
+    text-align: center;
+}
+.mycontent{
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: 150px;
+}
+#content-image{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    
+}
+.col-sm-6,h2{
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: bold;
+        
+}
+.para{
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 40px;
+}
+div h3{
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.paragraph{
+    
+}
+.form-control{
+    width: 300px;
+    margin-left: 400px;
+}
+.myinput{
+    padding: 5px;
+    border-radius: 5px;
+    width: 350px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    border: 1px solid grey;
+    padding-left: 30px;
+}
+#mybtn{
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    
+}
+.container{
+    margin-left: 20px;
+    
+}
+.footer{
+    height: 350px;
+    background-image: linear-gradient(to right,hsl(243, 87%, 12%),hsl(243, 87%, 12%));
+    margin-top: 150px;
+}
+#mylogo{
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+}
+#icon-phone{
+    display: block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.myspan{
+    margin-left: 110px;
+    color: white;
+    font-size: 12px;
+}
+
+.col{
+    display: inline-block;
+    color: white;
+    width: 30%;
+    vertical-align: top;
+
+}
+.col2{
+    border-right: 1px solid white;
+    border-left: 1px solid white; 
+}
+.col2 ul{
+    display: inline-block;
+    list-style: none;
+
+}
+.col2 ul a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    padding: 10% 4%;
+   
+}
+.col1 ul{
+    list-style: none;
+    margin-left: -2%;
+}
+.col1 ul img{
+    margin-right: 5%;
+}
+.col ul li{
+    margin-top: 1%;
+    padding-top: 2%;
+    font-size: 14px;
+}
+.col1 , .col2 ,.col3{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+.col3{
+    float: right;
+}
+.col1{
+  margin-top: 40px;
+}
+#myheadul, .myli, #mylist{
+  margin-bottom: 8px;
+  
+   
+}
+.col2{
+    margin-left: -10px;
+}
+.headul{
+    margin-bottom: 20px;
+    font-weight: bold; 
+}
+#myheadul{
+    margin-bottom: 20px;  
+}
+#mylist{
+  margin-left: 0px;
+}
+.input-field{
+    width: 300px;
+    padding: 5px;
+}
+#mybutton{
+    width: 200px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.col2{
+    padding: 0;
+}
+.col2 ul{
+    vertical-align: top;
+}
