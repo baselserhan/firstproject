@@ -1,102 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="C:/Users/Flash Tech/Documents/final project.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with features grid section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-    <div class="header">
-        <div id="mynavbar">
-            <img id="logo" width="100" src="F:/fylo-landing-page-959253-master/images/logo.svg">
-        </div>
-        <div class="buttons">
-            <button id="signin-btn" class="btn btn-primary">SIGN IN</button>
-            <button class="btn btn-success">SIGN UP</button>
-        </div>
-        <div>
-            <img id="image" src="F:/fylo-landing-page-959253-master/images/illustration-hero.svg"> 
-        </div>
-        <div class="header-content">
-            <div id="text">
-                <h1>All Your Files In One Secure<br> Location, Accessible Anywhere.</h1><br>
-                <button id="getstarted-btn"class="btn btn-success btn-lg">Get Started</button>
-            </div>
-        </div>
-    </div>
-    <div class="content" id="cont">
-        <h1 class="mycontent">Stay Productive, Wherever You Are</h1>
-    <div class="container">
-        <div>
-            <img id="content-image" width="100" src="F:/fylo-landing-page-959253-master/images/illustration-features.svg">
-        </div>
-        <div class="row">
-            <div class="col-sm-6"><h2>All platforms, all<br>devices, all your files<br><br><p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation</p></h2></div>
-            <div class="col-sm-6"><h2>Real-time collaboration<br><br><p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation</p></h2></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6"><h2>Security you can trust<br><br><p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation</p></h2></div>
-            <div class="col-sm-6"><h2>Automatic backups<br><br><p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididuntut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation</p></h2></div>
-        </div>
-    
-    </div>  
-        <div><h3>Get Early Access Today</h3><p class="paragraph">It only takes a minute to sign up and our free starter tier is extremely generous. If you have<br> any questions, our suuport team would be happy to help you.</p>
-            <span><input type="text" placeholder="email@example.com" class="myinput"></span>
-            <span><button id="mybtn" class="btn btn-success">Join</button></span>
-        </div>
-    </div>
-    </div>
-    <div class="footer">
-        <div class="col col1">
-            <img id="mylogo" src="F:/fylo-landing-page-959253-master/images/logo.svg">
-            <ul>
-                <li><img src="F:/fylo-landing-page-959253-master/images/icon-phone.svg">Phone:+1-543-123-4567</li>
-                <li><img src="F:/fylo-landing-page-959253-master/images/icon-email.svg">example@fylo.com</li>
-            </ul>
-        </div>
-        <div class="col col2">
-            <ul>
-                <li class="headul">Fylo</li>
-                <li class="myli"><a href="#">Desktop App</a> </li>
-                <li class="myli"><a href="#">Mobile App</a> </li>
-                <li class="myli"><a href="#">Pricing</a> </li>
-                <li class="myli"><a href="#">Feature</a> </li>
-            </ul>
-            <ul>
-                <li class="headul">Company</li>
-                <li class="myli"><a href="#">About Us</a> </li>
-                <li class="myli"><a href="#">Jobs</a> </li>
-                <li class="myli"><a href="#">Press</a> </li>
-                <li class="myli"><a href="#">Blog</a> </li>
-            </ul>
-             <ul>
-                <li class="headul" id="myheadul">Support</li>
-                <li class="myli" id="mylist"><a href="#">Contact Us</a> </li>
-                <li class="myli" id="mylist"><a href="#">Terms</a> </li>
-                <li class="myli" id="mylist"><a href="#">Privacy</a> </li>
-             <!--  <li class="myli" id="mylist"><a href="#">Cookies</a> </li>--> 
-            </ul>
+  Sign In
+  Sign Up 
 
-        </div>
-        <div class="col col3">
-            <P>Receive updates from us, including tips and tricks on how to improve your workflow.</P>
-            <input type="email" class="input-field">
-            <button class="btn btn-success" id="mybutton">Join</button>
+  All Your Files In One Secure Location, Accessible Anywhere.
+  Get Started
 
-        </div>
+  Stay Productive, Wherever You Are
 
-    </div>
+  All platforms, all devices, all your files
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+  egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+  leo, ac accumsan magna tellus sed leo.
+
+  Real-time collaboration
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+  egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+  leo, ac accumsan magna tellus sed leo.
+
+  Security you can trust
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+  egestas, elit sit amet fermentum viverra, ipsum dolor vehicula 
+  leo, ac accumsan magna tellus sed leo.
+
+  Automatic backups
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
+  egestas, elit sit amet fermentum viverra, ipsum dolor vehicula leo, 
+  ac accumsan magna tellus sed leo.
+
+  Get Early Access Today
+
+  It only takes a minute to sign up and our free starter tier is extremely 
+  generous. If you have any questions, our support team would be happy to 
+  help you.
+
+  Join
+
+  Phone: +1-543-123-4567
+  example@fylo.com
+
+  Fylo
+
+  Desktop App
+  Mobile App
+  Pricing
+  Feature
+
+  Company
+
+  About Us
+  Jobs
+  Press
+  Blog
+
+  Support
+
+  Contact Us
+  Terms
+  Privacy
+
+  Receive updates from us, including tips and tricks on how to improve your workflow.
+
+  Join
+
+  <footer>
+    <p class="attribution">
+      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+    </p>
+  </footer>
 </body>
 </html>
